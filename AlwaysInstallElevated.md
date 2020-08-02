@@ -1,4 +1,4 @@
-# AlwaysInstalEvalated
+# AlwaysInstallElevated
 AlwaysInstallElevated policy is allows a regular user to install a Microsoft Windows Installer Package (MSI) with system privileges.
 
 ### Detection
