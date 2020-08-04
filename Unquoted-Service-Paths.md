@@ -35,7 +35,7 @@ on metasploit. Finally, restart the service
 ## Service Restart
 ```
 sc stop <service-name>
-sc start <service-name
+sc start <service-name>
 ```
 
 ## Exploiting Metasploit
