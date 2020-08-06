@@ -12,7 +12,7 @@ c:\unattend.xml
 ### Regedit
 ```
 reg query "HKLM\SOFTWARE\Microsoft\Windows NT\Currentversion\Winlogon" 
-reg query HKEY_CURRENT_USER\Software\OpenSSH\Agent\Keys
+reg query "HKEY_CURRENT_USER\Software\OpenSSH\Agent\Keys"
 reg query "HKLM\SYSTEM\Current\ControlSet\Services\SNMP"
 reg query "HKCU\Software\SimonTatham\PuTTY\Sessions"
 reg query "HKCU\Software\ORL\WinVNC3\Password"
