@@ -10,5 +10,5 @@
 * [Dumping LSASS.exe](https://github.com/haktanemik/windows-priv/blob/master/Dumping-LSASS.md)
 * [Cracking Hashes](https://github.com/haktanemik/windows-priv/blob/master/Cracking-Hashes.md)
 * [File Transfer](https://github.com/haktanemik/windows-priv/blob/master/File-Transfer.md)
-* [GPP](https://github.com/haktanemik/windows-priv/blob/master/GPP.md)
+* [Group Policy Preferences (GPP)](https://github.com/haktanemik/windows-priv/blob/master/GPP.md)
 * [Windows Privilege Escalation Tools](https://github.com/haktanemik/windows-priv/blob/master/Windows-Priv-Tools.md)
