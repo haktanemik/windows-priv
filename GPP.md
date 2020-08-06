@@ -4,6 +4,8 @@
 * scheduledtasks.xml
 * services.xml
 * datasources.xml
+* printers.xml
+* drives.xml
 
 ## Group Policies Location
 ```
