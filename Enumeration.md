@@ -69,8 +69,8 @@ Network Information
 ipconfig /all # list all network interfaces
 route print # list routing table
 arp -a # list ARP table
-netsh wlan show profile # list SSID
-netsh wlan show profiles name=<SSID name> key=clear # show SSID's password
+netsh wlan show profiles # list SSID
+netsh wlan show profile name=<SSID name> key=clear # show SSID's password
 ```
 
 Firewall Information
