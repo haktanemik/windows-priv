@@ -1,6 +1,6 @@
 # Weak Service Permissions
 
-## Check vulnerables services
+## Check vulnerable services
 ```
 accesschk.exe -uwcqv "Authenticated Users" * /accepteula
 ```
