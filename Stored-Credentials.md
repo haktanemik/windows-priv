@@ -45,8 +45,8 @@ C:\Windows\NTDS\NTDS.dit
 
 ### WiFi
 ```
-netsh wlan show profile # list SSID
-netsh wlan show profiles name=<SSID name> key=clear # show SSID's password
+netsh wlan show profiles # list SSID
+netsh wlan show profile name=<SSID name> key=clear # show SSID's password
 ```
 
 ### GPP
