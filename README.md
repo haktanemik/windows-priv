@@ -7,6 +7,7 @@
 * [Weak Service Permissions](https://github.com/haktanemik/windows-priv/blob/master/Weak-Service-Permissions.md)
 * [Insecure Registry Permissions](https://github.com/haktanemik/windows-priv/blob/master/Insecure-Registry-Permissions.md)
 * [AlwaysInstallElevated](https://github.com/haktanemik/windows-priv/blob/master/AlwaysInstallElevated.md)
+* [Juicy Potato](https://github.com/haktanemik/windows-priv/blob/master/Juicy-Potato.md)
 * [Stored Credentials](https://github.com/haktanemik/windows-priv/blob/master/Stored-Credentials.md)
 * [Extract Hashes](https://github.com/haktanemik/windows-priv/blob/master/Extract-Hashes.md)
 * [Dumping LSASS.exe](https://github.com/haktanemik/windows-priv/blob/master/Dumping-LSASS.md)
